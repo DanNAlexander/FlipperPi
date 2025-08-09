@@ -1,0 +1,58 @@
+FlipperPi Hardware List:
+
+
+
+Core Components:
+
+- Raspberry Pi Zero 2 W	
+	- Main CPU (lightweight, wireless, 4-core)
+
+- microSD Card (16–32 GB)	
+	- OS and storage for tools/scripts
+
+- Micro USB OTG cable	
+	- USB gadget functionality (HID, Storage, etc.)
+
+- Li-ion Battery Pack or USB Power Bank	
+	- Portable power
+	
+	
+	
+	
+
+Optional Modules:
+
+- CC1101 RF Module	
+	- RF sniffing/jamming (315/433/868/915 MHz)
+
+- PN532 NFC Module	
+	- NFC read/write, card emulation
+
+- OLED 0.96" Display (I2C)	
+	- Small UI screen (like Flipper Zero)
+
+- DS18B20 Sensor (optional)	
+	- Temperature probe (extra utility)
+
+- Buttons (5x tactile)	
+	- User navigation (Up/Down/OK/Back/Menu)
+
+- Speaker/Buzzer	
+	- Beeps and alerts
+	
+	
+	
+	
+	
+Optional USB Gadgets (for payload testing):
+
+- Windows/Linux test laptop	
+	- Run HID/Storage tests
+- USB-A to micro USB cable	
+	- Connect Pi as a USB device	
+	
+	
+	
+	
+	
+	

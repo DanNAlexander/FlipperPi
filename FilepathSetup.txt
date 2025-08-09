@@ -1,0 +1,29 @@
+flipperpi_project/
+├── flipperpi/
+│   ├── main.py
+│   ├── cc1101_send.py
+│   ├── nfc_reader.py
+│   └── ... (rest of the scripts)
+├── pi-gen/
+│   └── stage-flipperpi/
+│       ├── 00-run.sh
+│       └── files/
+│           └── rc.local
+├── .github/
+│   └── workflows/
+│       └── build-image.yml
+├── README.md
+├── flipperpi_image_builder.sh
+
+
+
+
+
+With Flask UI Complanion app added:
+flipperpi/
+├── web/
+│   ├── app.py
+│   ├── templates/
+│   │   └── index.html
+│   └── static/
+│       └── style.css
