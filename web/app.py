@@ -19,16 +19,17 @@ def index():
         action = request.form.get("action")
 
         if pin != PIN_CODE:
-            return render_template("index.html", message="❌ Invalid PIN")
+            return render_template("index.html", message="Invalid PIN")
 
         script = SCRIPTS.get(action)
         if script and os.path.exists(script):
             subprocess.Popen(["python3", script])
-            return render_template("index.html", message=f"✅ {action.upper()} started")
+            return render_template("index.html", message=f"{action.upper()} started")
 
-        return render_template("index.html", message="❌ Unknown action")
+        return render_template("index.html", message="Unknown action")
 
     return render_template("index.html")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
+
