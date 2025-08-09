@@ -17,7 +17,7 @@ INSTALLATION & HARDWARE SET-UP
 -------------------------------------------------------------------------------
 
 
-Flash Raspberry Pi OS Lite:
+FLASH RASPBERRY PI OS LITE:
 
 Download Raspberry Pi Imager:
 https://www.raspberrypi.com/software/
@@ -37,7 +37,7 @@ Flash the card and insert into your Pi.
 
 
 
-First Boot:
+FIRST BOOT:
 
 Power on the Pi Zero 2 W
 Defauly Passs: raspberry
@@ -53,7 +53,7 @@ sudo apt update && sudo apt upgrade -y
 
 
 
-Install Required Packages:
+INSTALL REQUIRED PACKAGES:
 
 Install Python & Flask in BASH:
 sudo apt install python3 python3-pip git -y
@@ -69,7 +69,8 @@ Then Enable SPI, I2C (NFC reader requirement). Reboot once changed.
 
 
 
-Deploy the FlipperPi Project:
+
+DEPLOY THE FLIPPERPI PROJECT:
 
 In your host PC:
 EX. PowerShell: scp -r flipperpi_project_full pi@flipperpi.local:/home/pi/
@@ -83,7 +84,7 @@ python3 app.py
 
 
 
-Test the Web UI:
+TEST THE WEB UI:
 
 On your host PC's browser: http://flipperpi.local:5000
 
@@ -101,7 +102,7 @@ USB storage toggle → Runs usb_storage_toggle.py
 
 
 
-Set Flask to run at Boot:
+SET FLASK TO RUN AT BOOT:
 
 In PI BASH:
 sudo nano /etc/rc.local
