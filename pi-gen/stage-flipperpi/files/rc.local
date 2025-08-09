@@ -1,0 +1,3 @@
+#!/bin/bash
+python3 /home/pi/flipperpi/main.py &
+exit 0

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FlipperPi Web UI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>🛠 FlipperPi Control Panel</h1>
+    <form method="POST">
+        <input type="password" name="pin" placeholder="Enter PIN" required><br><br>
+        <button name="action" value="hid">💻 Launch HID Payload</button>
+        <button name="action" value="rf">📡 Send RF Signal</button>
+        <button name="action" value="nfc">📲 Read NFC Tag</button>
+        <button name="action" value="usb">💾 Toggle USB Storage</button>
+    </form>
+    {% if message %}
+        <p>{{ message }}</p>
+    {% endif %}
+</body>
+</html>
