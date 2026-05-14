@@ -1,4 +1,4 @@
-# PDF_Partitioner — This is a DIY Flipper Zero-style multi-tool running on Raspberry Pi Zero 2.
+# FlipperPi — This is a DIY Flipper Zero-style multi-tool running on Raspberry Pi Zero 2.
 # Copyright (C) 2026 Danton Alexander
 #
 # This program is free software: you can redistribute it and/or modify
